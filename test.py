@@ -1,9 +1,9 @@
 #!/usr/bin/env
+import os
 import sys
 
 def main(b):
-    a = 10
-	print(a / b)
+    os.system(b)
 
 if __name__ == '__main__':
     main(sys.argv[1])
